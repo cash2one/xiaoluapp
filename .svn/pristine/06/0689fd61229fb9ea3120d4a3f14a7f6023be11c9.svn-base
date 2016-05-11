@@ -1,0 +1,17 @@
+（1） /tvapi2/album_gamelist.php 获取游戏 TV 专辑游戏列表
+（2） /tvapi2/category.php 获取全部游戏的分类及该分类下的游戏个数
+（3） /tvapi2/game_app_detail.php 返回该游戏的详细信息
+（4） /tvapi2/game_category.php 获取全部游戏的分类
+（5） /tvapi2/game_category_list.php 获取全部游戏分类下面的指定条数的游戏（进行了GPU适配的）
+（6） /tvapi2/game_down.php 记录每次下载时的日志
+（7） /tvapi2/game_down_speed.php 记录每次下载时速度的日志
+（8） /tvapi2/game_list.php 返回游戏列表(进行了GPU适配）
+（9） /tvapi2/game_list_select.php 游戏列表条件选择接口
+（10）/tvapi2/game_model_brand.php 获取型号信息
+（11）/tvapi2/games.php 获取全部游戏的包名
+（12）/tvapi2/home_hotgame.php 返回客户端首页需要显示的游戏（进行了GPU适配的）
+（13）/tvapi2/online_config.php 检查接口的数据是否有更新
+
+2、SDK目前使用tvapi3的，该接口废弃
+（14）/tvapi2/sdk_ad.php sdk广告列表
+（15）/tvapi2/sdk_game_app_detail.php SDK用的游戏详情页

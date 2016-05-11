@@ -1,0 +1,42 @@
+1、在用接口
+（2） /tvapi4/51kuaiapp_list.php 获取 51快装软件 专辑游戏列表（在用）
+（3） /tvapi4/album_gamelist.php 获取游戏 TV 专辑游戏列表（在用）
+（4） /tvapi4/applist_update.php 查询可更新游戏（在用）
+（5） /tvapi4/category.php 获取全部游戏的分类及该分类下的游戏个数（在用）
+（6） /tvapi4/game_app_detail.php 返回该游戏的详细信息（在用）
+（9） /tvapi4/game_down.php 记录每次下载时的日志（在用）
+（10） /tvapi4/game_down_speed.php 记录每次下载时速度的日志（在用）
+（11） /tvapi4/game_list.php 返回游戏列表(进行了GPU适配）（在用）
+（12） /tvapi4/game_list_handle.php 返回游戏列表(进行了GPU适配）（在用）
+（13） /tvapi4/game_list_select.php 游戏列表条件选择接口（在用）
+（14） /tvapi4/game_list_select_key.php 游戏列表搜索接口（在用）
+（15）/tvapi4/game_model_brand.php 获取专区id，名字和图片接口（在用）
+（16）/tvapi4/games.php 获取全部游戏的包名（在用）
+（17）/tvapi4/getemuplugin.php 获取不同CPU平台的PSP模拟器插件（在用）
+（18）/tvapi4/handle_detail.php 返回手柄详细信息（在用）
+（20）/tvapi4/handle_list.php 手柄推荐接口（在用）
+（21）/tvapi4/home_hotgame.php 返回客户端首页需要显示的游戏（进行了GPU适配的）（在用）
+（22）/tvapi4/online_config.php 检查接口的数据是否有更新（在用）
+
+2、废弃接口
+（1） /tvapi4/51kuaiapp_detail.php 获取51快装软件详情接口（废弃）
+（7） /tvapi4/game_category.php 获取全部游戏的分类（废弃）
+（8） /tvapi4/game_category_list.php 获取全部游戏分类下面的指定条数的游戏（进行了GPU适配的）（废弃）
+（19）/tvapi4/handle_game_list.php 返回支持模拟按键的游戏列表（废弃）
+
+3、SDK目前使用tvapi3的,tvapi5的接口暂时未被使用
+（23）/tvapi4/sdk_ad.php sdk广告列表（tvapi4客户端有用此接口）
+（24）/tvapi4/sdk_game_app_detail.php SDK用的游戏详情页
+
+4、目前视频使用的是api4的接口
+（25）/tvapi4/video_51kuaiapp_detail.php 获取视频51快装软件详情接口
+（26）/tvapi4/video_51kuaiapp_list.php 获取视频51快装软件列表接口
+（27）/tvapi4/video_album_videolist.php 获取视频项目 专辑视频列表
+（28）/tvapi4/video_author_category_list.php 作者解说列表页
+（29）/tvapi4/video_author_category_video_list.php 视频列表页
+（30）/tvapi4/video_hero_list.php 英雄列表页
+（31）/tvapi4/video_hero_video_list.php 视频列表页，返回请求英雄ID对应的视频列表
+（32）/tvapi4/video_index_album.php 获取视频项目 首页专辑视频列表
+（33）/tvapi4/video_play.php 视频播放（解析视频播放地址）
+（34）/tvapi4/video_video_list.php 视频列表页，返回请求类型的视频列表
+（35）/tvapi4/video_vert.php 视频广告
